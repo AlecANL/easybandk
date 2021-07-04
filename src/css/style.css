@@ -1,0 +1,17 @@
+@import './main.css';
+@import './components/buttons.css';
+@import './components/wrapper.css';
+@import './components/header.css';
+@import './components/hero.css';
+@import './components/about.css';
+@import './components/articles.css';
+@import './components/footer.css';
+
+body {
+  font: var(--body1Base);
+  margin: 0;
+  color: var(--grayishBlue);
+}
+/* img {
+  max-inline-size: 100%;
+} */

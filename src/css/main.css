@@ -1,0 +1,22 @@
+:root {
+  --darkBlue: #2d314d;
+  --limeGreen: hsl(136, 65%, 51%);
+  --brightCyan: hsl(192, 70%, 51%);
+  --grayishBlue: #9698a6;
+  --textColor: #9597a5;
+  --aboutBgColor: #f4f5f7;
+  --lightGrayishBlue: #f3f4f6;
+  --veryLightGray: #fafafa;
+  --just-white: #ffffff;
+  --headingColor: #2d314d;
+  --baseFontFamily: 'Public Sans', sans-serif;
+  --body2Base: normal 1.125rem / 1.75rem var(--baseFontFamily);
+  --body1Base: normal 1rem / 1.5625rem var(--baseFontFamily);
+  --bodySmall: normal 0.8125rem / 1.125rem var(--baseFontFamily);
+  --heading1Base: normal 2.5rem / 2.9375rem var(--baseFontFamily);
+  --heading2Base: normal 2rem / 2.25rem var(--baseFontFamily);
+  --heading3Base: normal 1.25rem / 1.75rem var(--baseFontFamily);
+  --heading4Base: normal 1rem / 1.25rem var(--baseFontFamily);
+  --buttonFont: bold 0.875rem / 1.75rem var(--baseFontFamily);
+  --smallFont: normal 0.625rem / 1.125rem var(--baseFontFamily);
+}
