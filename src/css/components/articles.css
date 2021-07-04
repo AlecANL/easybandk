@@ -33,6 +33,11 @@
   color: var(--darkBlue);
   font: var(--heading4Base);
   font-weight: 300;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+.article h3:hover {
+  color: var(--limeGreen);
 }
 
 .article small {

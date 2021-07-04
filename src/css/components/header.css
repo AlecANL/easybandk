@@ -23,6 +23,9 @@
 .header-button {
   display: none;
 }
+.header-logos .icon-close {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .header-logos {
@@ -31,7 +34,13 @@
   .header-logos .icon-hamburger {
     display: none;
   }
+  .header-logos .icon-close {
+    display: none;
+  }
   .header-button {
     display: block;
+  }
+  .header-content {
+    padding-block: 0;
   }
 }

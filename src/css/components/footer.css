@@ -40,6 +40,13 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+.contact li a:hover {
+  color: var(--limeGreen);
+}
+.contact li a {
+  transition: color 0.2s ease-in-out;
+}
+
 @media screen and (min-width: 1024px) {
   .footer-content {
     display: grid;

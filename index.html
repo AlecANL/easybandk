@@ -36,9 +36,16 @@
               class="icon-hamburger"
               src="./src/assets/images/icon-hamburger.svg"
               alt="icon hamburger"
+              id="icon-burger"
+            />
+            <img
+              class="icon-close"
+              src="./src/assets/images/icon-close.svg"
+              alt="icon close"
+              id="icon-close"
             />
           </div>
-          <nav class="navigation">
+          <nav class="navigation" id="menu">
             <div class="navigation-layer"></div>
             <ul class="navigation-list">
               <li class="navigation-item">home</li>
@@ -292,5 +299,22 @@
         </div>
       </div>
     </footer>
+    <script>
+      const $menu = document.getElementById('menu');
+      const $iconBurger = document.getElementById('icon-burger');
+      const $iconClose = document.getElementById('icon-close');
+
+      $iconBurger.addEventListener('click', () => {
+        $menu.classList.add('is-active');
+        $iconBurger.style.display = 'none';
+        $iconClose.style.display = 'block';
+      });
+
+      $iconClose.addEventListener('click', () => {
+        $menu.classList.remove('is-active');
+        $iconBurger.style.display = 'block';
+        $iconClose.style.display = 'none';
+      });
+    </script>
   </body>
 </html>
